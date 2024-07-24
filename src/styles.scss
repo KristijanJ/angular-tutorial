@@ -2,6 +2,7 @@
 @import "./styles/variables.scss";
 @import "primeng/resources/themes/lara-light-blue/theme.css";
 @import "primeng/resources/primeng.css";
+@import "./styles/theme-overrides.scss";
 
 * {
   margin: 0;
@@ -50,6 +51,10 @@ app-root {
   flex-wrap: wrap;
 }
 
+.gap-05 {
+  gap: 0.5rem;
+}
+
 .gap-1 {
   gap: 1rem;
 }
@@ -73,4 +78,8 @@ app-root {
 .full-center {
   align-items: center;
   justify-content: center;
+}
+
+.hidden {
+  display: none;
 }
