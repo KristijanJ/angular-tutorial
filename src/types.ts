@@ -28,6 +28,7 @@ export interface Options {
 }
 
 export interface Product {
+  id?: 0,
   price: string;
   name: string;
   image: string;
